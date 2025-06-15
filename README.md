@@ -1,6 +1,7 @@
 -Thêm mssql-jdbc-12.10.0.jre11 trong file sqljdbc vào java build path, thêm cả vào lib của tomcat
 -sử dụng tomcat 9
 -cài tất cả các file trong mục tải, xong chọn file-> new ->dynamic web project( chưa hiện dynamic thì bật lên)
+-chỉnh dynamic trong project facets: chuột phải properties file dynamic -> project facets -> dynamic web module thành 3.1( không chỉnh lỗi jsp)
 -bật tcp và sql server brower lên nếu chưa bật
 -kiểm tra kĩ file DBConnection khi chạy, hay bị lỗi nếu url không đúng
 tomcat chạy file trong webapp/
